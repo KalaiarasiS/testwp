@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Pre-Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: #009dff;">BOOK PRE-REGISTRATION</h1>
+    <p>Thank you for joining us! We're excited to share details about our upcoming book and provide you with an exclusive opportunity to pre-register.</p>
+
+    <p><strong>About the Book:</strong> "Mexica" is an intriguing journey into a world of mystery and adventure. It promises to captivate your imagination and keep you on the edge of your seat.</p>
+
+    <p><strong>About the Author:</strong> Meet the talented author, [nirve], a seasoned storyteller with a passion for creating unforgettable literary experiences.</p>
+
+    <p id="formIntro">To pre-register for the book, <a href="#" onclick="toggleForm()">click here</a>.</p>
+
+    <form id="preRegistrationForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="bookTitle">Preferred Book Title:</label>
+      <input type="text" id="bookTitle" name="bookTitle" required>
+
+      <button type="button" onclick="submitForm()">Register</button>
+    </form>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

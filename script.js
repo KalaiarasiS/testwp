@@ -8,7 +8,7 @@ function toggleForm() {
       formIntro.style.opacity = '0';
     } else {
       form.style.display = 'none';
-      formIntro.style.opacity = '1';
+      formIntro.style.opacity = '1 ';
     }
   }
   
